@@ -1,12 +1,80 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins;
 }
 
-#heading{
-  text-align: center;  
+#heading {
+  text-align: center;
   text-decoration: underline;
   font-weight: 900;
+}
+
+#sub-heading {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 5px;
+}
+
+table,
+th,
+td {
+  margin: auto;
+  border: 1px solid gainsboro;
+  padding: 2em;
+}
+
+footer {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 5px;
+  font-weight: bold;
+}
+
+td button{
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: whitesmoke;
+  border: 2px solid rgb(255, 172, 172);
+  width: 100%;
+  transition: all 450ms;
+  outline: none;
+}
+
+td button:hover{
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#edit-btn{
+  background-color: green;
+  color: white;
+  border: 2px solid yellow;
+}
+
+#delete-btn{
+  background-color: red;
+  color: white;
+  border: 2px solid slateblue;
+  margin-top: 10px;
+}
+
+td select{
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+}
+
+input{
+  outline: none;
+  border: 2px solid black;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px;
 }
